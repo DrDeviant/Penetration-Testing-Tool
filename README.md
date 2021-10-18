@@ -1,21 +1,22 @@
 # Penetration Testing Tool
-Pentest Tool is a network and pentest utility that I developed so that I could perform different kinds of task using the same suite, instead of jumping from one tool to another.
+ Pentest Tool is a network and pentest utility that I developed so that I could perform different kinds of task using the same suite, instead of jumping from one tool to another.
 
 Currently, this script can perform a good variety of tasks such as:
 
-Port scans, including SYN, TCP, UDP, ACK, comprehensive scan;
-Host discovery (scan for up devices on a local network);
-MAC address detection (get MAC address of a host IP on a local network);
-Banner grabbing;
-DNS checks with geolocation information;
-Subdomain enumeration;
-Vulnerability reconnaissance;
-ifconfig (beta);
-ping;
-traceroute;
-IP spoofing;
-Packet sniffing;
-Deauth attack.
+* Port scans, including SYN, TCP, UDP, ACK, comprehensive scan;
+* Host discovery (scan for up devices on a local network);
+* MAC address detection (get MAC address of a host IP on a local network);
+* Banner grabbing;
+* DNS checks with geolocation information;
+* Subdomain enumeration;
+* Vulnerability reconnaissance;
+* ifconfig (beta);
+* ping;
+* traceroute;
+* IP spoofing;
+* Packet sniffing;
+* Deauth attack.
+
 Other features are still being implemented. Future implementations may include WAF (web application firewall) detection, DNS enumeration, static code analysis, traffic analysis, ARP poisoning, MAC spoofing, MAC flooding, ping of death, network disassociation attack (not deauth attack), OSINT, exploits, some automated tasks, Windows support and others.
 
 # Contents
@@ -45,4 +46,3 @@ Multiple scan types are supported, including SYN  (`-scansyn`) , TCP (`-scantcp`
 `-scan -iprange [START IP] [END IP] -p [PORT(s)]`
 
 `-scan -iprange [START IP] [END IP] -prange [START PORT] [END PORT]`
-
