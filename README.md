@@ -1,6 +1,5 @@
-# Penetration-Testing-Tool
 # Penetration Testing Tool
- Pentest Tool is a network and pentest utility that I developed so that I could perform different kinds of task using the same suite, instead of jumping from one tool to another.
+Pentest Tool is a network and pentest utility that I developed so that I could perform different kinds of task using the same suite, instead of jumping from one tool to another.
 
 Currently, this script can perform a good variety of tasks such as:
 
